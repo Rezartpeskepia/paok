@@ -433,7 +433,7 @@ int main(int argc, char **argv) {
 		closesocket(sockRaw);
 	HeapFree(GetProcessHeap(), 0, recvbuf);
 	HeapFree(GetProcessHeap(), 0, icmp_data);
-
+	//i tried so haaaard and got sooo far in the end it doesnt even matter.
 	WSACleanup();
 	return 0;
 }
