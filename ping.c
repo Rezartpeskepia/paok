@@ -427,7 +427,8 @@ int main(int argc, char **argv) {
 		Sleep(1000);
 	}
 	// Cleanup
-	//
+	//test
+
 	if (sockRaw != INVALID_SOCKET)
 		closesocket(sockRaw);
 	HeapFree(GetProcessHeap(), 0, recvbuf);
